@@ -1,0 +1,82 @@
+{
+    "header": [
+        {
+            "userName": "default user",
+            "identifier": "1688672843693",
+            "type": "COMMUNICATIONANALYSIS"
+        }
+    ],
+    "actors": [
+        {
+            "unique": "3",
+            "identifier": "Actor 1",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 410,
+            "y": 230
+        },
+        {
+            "unique": "7",
+            "identifier": "Actor 1",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 930,
+            "y": 230
+        }
+    ],
+    "starts": [
+        {
+            "unique": "2",
+            "identifier": "Start1",
+            "name": "Start ",
+            "type": "Start",
+            "x": 660,
+            "y": 70
+        }
+    ],
+    "ends": [],
+    "communicativeEvents": [
+        {
+            "unique": "4",
+            "identifier": "CE 1",
+            "name": "El vendedor muestra el catalogo al cliente",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 550,
+            "y": 190,
+            "height": 125,
+            "width": 280,
+            "supportActor": [
+                {
+                    "unique": "5",
+                    "identifier": "Actor",
+                    "name": "New Actor",
+                    "type": "Support Actor",
+                    "width": 280,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        }
+    ],
+    "specialisedCommunicativeEvents": [],
+    "communicativeInteractions": [],
+    "precedenceRelations": [
+        {
+            "unique": "6",
+            "type": "Precedence Relation",
+            "source": "2",
+            "target": "4"
+        }
+    ]
+}
