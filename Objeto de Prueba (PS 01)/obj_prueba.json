@@ -1,0 +1,1189 @@
+{
+    "header": [
+        {
+            "userName": "default user",
+            "identifier": "1690224003350",
+            "type": "COMMUNICATIONANALYSIS"
+        }
+    ],
+    "actors": [
+        {
+            "unique": "8",
+            "identifier": "Actor 1",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 370,
+            "y": 160
+        },
+        {
+            "unique": "10",
+            "identifier": "Actor 2",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 980,
+            "y": 160
+        },
+        {
+            "unique": "16",
+            "identifier": "Actor 3",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 380,
+            "y": 330
+        },
+        {
+            "unique": "17",
+            "identifier": "Actor 4",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 980,
+            "y": 320
+        },
+        {
+            "unique": "54",
+            "identifier": "Actor 8",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 1360,
+            "y": 640
+        },
+        {
+            "unique": "56",
+            "identifier": "Actor 9",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 1360,
+            "y": 740
+        },
+        {
+            "unique": "65",
+            "identifier": "Actor 10",
+            "name": "Gestor",
+            "type": "Actor",
+            "x": 620,
+            "y": 1020
+        },
+        {
+            "unique": "66",
+            "identifier": "Actor 11",
+            "name": "Sastre",
+            "type": "Actor",
+            "x": 1040,
+            "y": 1000
+        },
+        {
+            "unique": "73",
+            "identifier": "Actor 12",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 140,
+            "y": 580
+        },
+        {
+            "unique": "74",
+            "identifier": "Actor 13",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 80,
+            "y": 720
+        },
+        {
+            "unique": "81",
+            "identifier": "Actor 14",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 60,
+            "y": 880
+        },
+        {
+            "unique": "83",
+            "identifier": "Actor 15",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 50,
+            "y": 970
+        },
+        {
+            "unique": "88",
+            "identifier": "Actor 16",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 70,
+            "y": 1090
+        }
+    ],
+    "starts": [
+        {
+            "unique": "6",
+            "identifier": "Start2",
+            "name": "Start ",
+            "type": "Start",
+            "x": 670,
+            "y": 30
+        }
+    ],
+    "ends": [
+        {
+            "unique": "91",
+            "identifier": "End4",
+            "name": "End ",
+            "type": "End",
+            "x": 320,
+            "y": 1220
+        }
+    ],
+    "communicativeEvents": [
+        {
+            "unique": "3",
+            "identifier": "EV1",
+            "name": "El Vendedor muestra el catalogo",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 520,
+            "y": 120,
+            "height": 125,
+            "width": 360,
+            "supportActor": [
+                {
+                    "unique": "4",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 359.9999999999999,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "14",
+            "identifier": "EV2",
+            "name": "El Cliente elige un disfraz",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 520,
+            "y": 290,
+            "height": 125,
+            "width": 360,
+            "supportActor": [
+                {
+                    "unique": "15",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 360,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "60",
+            "identifier": "EV5",
+            "name": "El sastre cose el pedido",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 690,
+            "y": 860,
+            "height": 125,
+            "width": 260,
+            "supportActor": [
+                {
+                    "unique": "61",
+                    "identifier": "Actor",
+                    "name": "Sastre",
+                    "type": "Support Actor",
+                    "width": 260,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "63",
+            "identifier": "EV6",
+            "name": "El Cliente elige el accesorio",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 250,
+            "y": 690,
+            "height": 125,
+            "width": 240,
+            "supportActor": [
+                {
+                    "unique": "64",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 240,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "77",
+            "identifier": "EV7",
+            "name": "El Vendedor entrega y cobra el pedido",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 210,
+            "y": 880,
+            "height": 125,
+            "width": 280,
+            "supportActor": [
+                {
+                    "unique": "78",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 280,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "85",
+            "identifier": "EV8",
+            "name": "El Cliente paga la factura",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 210,
+            "y": 1050,
+            "height": 125,
+            "width": 280,
+            "supportActor": [
+                {
+                    "unique": "86",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 280,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        }
+    ],
+    "specialisedCommunicativeEvents": [
+        {
+            "unique": "25",
+            "identifier": "EV3",
+            "name": "El Dependiente comprueba el stock           del producto",
+            "type": "Specialised Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 520,
+            "y": 450,
+            "width": 360,
+            "height": 190,
+            "internalCommunicativeEvent": [
+                {
+                    "unique": "26",
+                    "identifier": "EV3.1",
+                    "name": "Hay stock",
+                    "type": "Internal Communicative Event",
+                    "goals": "",
+                    "description": "",
+                    "channel": "",
+                    "temporalRestrictions": "",
+                    "frequency": "",
+                    "contextConstraints": "",
+                    "structuralConstraints": "",
+                    "treatment": "",
+                    "linkedCommunication": "",
+                    "linkedReaction": "",
+                    "x": 30,
+                    "y": 55,
+                    "height": 60,
+                    "width": 135
+                },
+                {
+                    "unique": "27",
+                    "identifier": "EV3.2",
+                    "name": "No hay stock",
+                    "type": "Internal Communicative Event",
+                    "goals": "",
+                    "description": "",
+                    "channel": "",
+                    "temporalRestrictions": "",
+                    "frequency": "",
+                    "contextConstraints": "",
+                    "structuralConstraints": "",
+                    "treatment": "",
+                    "linkedCommunication": "",
+                    "linkedReaction": "",
+                    "x": 195,
+                    "y": 55,
+                    "height": 60,
+                    "width": 135
+                }
+            ],
+            "supportActor": [
+                {
+                    "unique": "28",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "x": 0,
+                    "y": 140,
+                    "height": 50,
+                    "width": 360
+                }
+            ]
+        },
+        {
+            "unique": "31",
+            "identifier": "EV4",
+            "name": "El Cliente evalua la situación",
+            "type": "Specialised Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 940,
+            "y": 610,
+            "width": 350,
+            "height": 190,
+            "internalCommunicativeEvent": [
+                {
+                    "unique": "32",
+                    "identifier": "EV4.1",
+                    "name": "Pide coser los  que faltan",
+                    "type": "Internal Communicative Event",
+                    "goals": "",
+                    "description": "",
+                    "channel": "",
+                    "temporalRestrictions": "",
+                    "frequency": "",
+                    "contextConstraints": "",
+                    "structuralConstraints": "",
+                    "treatment": "",
+                    "linkedCommunication": "",
+                    "linkedReaction": "",
+                    "x": 29.166666666666668,
+                    "y": 55,
+                    "height": 60,
+                    "width": 131.25
+                },
+                {
+                    "unique": "33",
+                    "identifier": "EV4.2",
+                    "name": "Seguir pedido   con los que hay",
+                    "type": "Internal Communicative Event",
+                    "goals": "",
+                    "description": "",
+                    "channel": "",
+                    "temporalRestrictions": "",
+                    "frequency": "",
+                    "contextConstraints": "",
+                    "structuralConstraints": "",
+                    "treatment": "",
+                    "linkedCommunication": "",
+                    "linkedReaction": "",
+                    "x": 189.58333333333334,
+                    "y": 55,
+                    "height": 60,
+                    "width": 131.25
+                }
+            ],
+            "supportActor": [
+                {
+                    "unique": "34",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "x": 0,
+                    "y": 140,
+                    "height": 50,
+                    "width": 350
+                }
+            ]
+        }
+    ],
+    "communicativeInteractions": [
+        {
+            "unique": "9",
+            "identifier": "CI",
+            "name": "Catalogo",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Catalogo",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Catalogo",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Disfraces",
+                                "type": "Iteration",
+                                "children": [
+                                    {
+                                        "name": "Disfraz",
+                                        "type": "Aggregation",
+                                        "children": [
+                                            {
+                                                "name": "Nombre",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Text",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Descripción",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Text",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Precio",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Number",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Accesorios",
+                                "type": "Iteration",
+                                "children": [
+                                    {
+                                        "name": "Accesorio",
+                                        "type": "Aggregation",
+                                        "children": [
+                                            {
+                                                "name": "Nombre",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Text",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Descripción",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Text",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Precio",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Number",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "FechaPublicacion",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "8",
+            "target": "3"
+        },
+        {
+            "unique": "11",
+            "identifier": "CI",
+            "name": "Catalogo",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "3",
+            "target": "10"
+        },
+        {
+            "unique": "18",
+            "identifier": "CI",
+            "name": "Disfraz",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Disfraz",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "DisfrazPedido",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Disfraz",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "Cantidad",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Cliente",
+                                "type": "Aggregation",
+                                "children": [
+                                    {
+                                        "name": "Nombre",
+                                        "type": "Data Field",
+                                        "operation": "Operation",
+                                        "domain": "Text",
+                                        "identifier": "Identifier",
+                                        "example": [
+                                            "Example: Tyrell",
+                                            "Example: 256",
+                                            "Example: €100",
+                                            "Example: 31/09/2020"
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Telefono",
+                                        "type": "Data Field",
+                                        "operation": "Operation",
+                                        "domain": "Text",
+                                        "identifier": "Identifier",
+                                        "example": [
+                                            "Example: Tyrell",
+                                            "Example: 256",
+                                            "Example: €100",
+                                            "Example: 31/09/2020"
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "17",
+            "target": "14"
+        },
+        {
+            "unique": "19",
+            "identifier": "CI",
+            "name": "Disfraz",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "14",
+            "target": "16"
+        },
+        {
+            "unique": "55",
+            "identifier": "CI",
+            "name": "Decisión",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Decisión",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Decisión",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Respuesta",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "DisfrazPedido",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "54",
+            "target": "31"
+        },
+        {
+            "unique": "57",
+            "identifier": "CI",
+            "name": "Decisión",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "31",
+            "target": "56",
+            "points": [
+                {
+                    "x": 1325,
+                    "y": 730
+                },
+                {
+                    "x": 1325,
+                    "y": 765
+                }
+            ]
+        },
+        {
+            "unique": "70",
+            "identifier": "CI",
+            "name": "Pedido",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Pedido",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "OrdenTrabajo",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "FechaEntrega",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Date",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "DisfrazPedido",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "65",
+            "target": "60"
+        },
+        {
+            "unique": "72",
+            "identifier": "CI",
+            "name": "Pedido",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "60",
+            "target": "66",
+            "points": [
+                {
+                    "x": 860,
+                    "y": 1003
+                },
+                {
+                    "x": 970,
+                    "y": 1003
+                }
+            ]
+        },
+        {
+            "unique": "75",
+            "identifier": "CI",
+            "name": "Accesorios",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Accesorios",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "AccesorioPedido",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Accesorio",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "Cantidad",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "73",
+            "target": "63",
+            "points": [
+                {
+                    "x": 160,
+                    "y": 640
+                },
+                {
+                    "x": 330,
+                    "y": 640
+                }
+            ]
+        },
+        {
+            "unique": "76",
+            "identifier": "CI",
+            "name": "Accesorios",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "63",
+            "target": "74"
+        },
+        {
+            "unique": "82",
+            "identifier": "CI",
+            "name": "Factura",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Factura",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "OrdenCompra",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "AccesorioPedido",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "DisfrazPedido",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "Fecha",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Date",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "PrecioTotal",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Pagado",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Cliente",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "81",
+            "target": "77"
+        },
+        {
+            "unique": "84",
+            "identifier": "CI",
+            "name": "Factura",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "77",
+            "target": "83",
+            "points": [
+                {
+                    "x": 150,
+                    "y": 960
+                },
+                {
+                    "x": 150,
+                    "y": 995
+                }
+            ]
+        },
+        {
+            "unique": "90",
+            "identifier": "CI",
+            "name": "Factura",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Factura",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Factura",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Fecha",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Date",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "OrdenCompra",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "CantidadPagada",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "88",
+            "target": "85"
+        }
+    ],
+    "precedenceRelations": [
+        {
+            "unique": "7",
+            "type": "Precedence Relation",
+            "source": "6",
+            "target": "3"
+        },
+        {
+            "unique": "20",
+            "type": "Precedence Relation",
+            "source": "3",
+            "target": "14"
+        },
+        {
+            "unique": "29",
+            "type": "Precedence Relation",
+            "source": "14",
+            "target": "25"
+        },
+        {
+            "unique": "53",
+            "type": "Precedence Relation",
+            "source": "25",
+            "target": "31",
+            "points": [
+                {
+                    "x": 1120,
+                    "y": 540
+                }
+            ]
+        },
+        {
+            "unique": "62",
+            "type": "Precedence Relation",
+            "source": "31",
+            "target": "60",
+            "points": [
+                {
+                    "x": 1200,
+                    "y": 930
+                }
+            ]
+        },
+        {
+            "unique": "68",
+            "type": "Precedence Relation",
+            "source": "25",
+            "target": "63",
+            "points": [
+                {
+                    "x": 370,
+                    "y": 550
+                }
+            ]
+        },
+        {
+            "unique": "69",
+            "type": "Precedence Relation",
+            "source": "31",
+            "target": "63",
+            "points": [
+                {
+                    "x": 715,
+                    "y": 710
+                },
+                {
+                    "x": 715,
+                    "y": 753
+                }
+            ]
+        },
+        {
+            "unique": "79",
+            "type": "Precedence Relation",
+            "source": "60",
+            "target": "77"
+        },
+        {
+            "unique": "80",
+            "type": "Precedence Relation",
+            "source": "63",
+            "target": "77"
+        },
+        {
+            "unique": "87",
+            "type": "Precedence Relation",
+            "source": "77",
+            "target": "85"
+        },
+        {
+            "unique": "92",
+            "type": "Precedence Relation",
+            "source": "85",
+            "target": "91"
+        }
+    ]
+}
