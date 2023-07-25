@@ -86,7 +86,7 @@
         {
             "unique": "10",
             "identifier": "EV3",
-            "name": "Pagar el importe de la compra",
+            "name": "Seleccionar un producto",
             "type": "Communicative Event",
             "goals": "",
             "description": "",
@@ -111,6 +111,38 @@
                     "width": 340,
                     "height": 50,
                     "x": 1.909759131687224e-15,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "12",
+            "identifier": "EV4",
+            "name": "Pagar el importe de la compra",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 510,
+            "y": 630,
+            "height": 125,
+            "width": 340,
+            "supportActor": [
+                {
+                    "unique": "13",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 340,
+                    "height": 50,
+                    "x": 0,
                     "y": 50
                 }
             ]
