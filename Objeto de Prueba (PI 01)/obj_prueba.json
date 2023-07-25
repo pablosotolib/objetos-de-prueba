@@ -1,0 +1,122 @@
+{
+    "header": [
+        {
+            "userName": "default user",
+            "identifier": "1690311510436",
+            "type": "COMMUNICATIONANALYSIS"
+        }
+    ],
+    "actors": [],
+    "starts": [
+        {
+            "unique": "2",
+            "identifier": "Start1",
+            "name": "Start ",
+            "type": "Start",
+            "x": 660,
+            "y": 70
+        }
+    ],
+    "ends": [],
+    "communicativeEvents": [
+        {
+            "unique": "3",
+            "identifier": "EV1",
+            "name": "Registrarse en el sistema  de beneficios",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 510,
+            "y": 170,
+            "height": 130,
+            "width": 340,
+            "supportActor": [
+                {
+                    "unique": "4",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 340,
+                    "height": 52,
+                    "x": 0,
+                    "y": 52
+                }
+            ]
+        },
+        {
+            "unique": "8",
+            "identifier": "EV2",
+            "name": "Acceder a los descuentos de la tienda",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 510,
+            "y": 320,
+            "height": 125,
+            "width": 340,
+            "supportActor": [
+                {
+                    "unique": "9",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 340,
+                    "height": 50,
+                    "x": 4.131226075672834e-15,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "10",
+            "identifier": "EV3",
+            "name": "Pagar el importe de la compra",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 510,
+            "y": 470,
+            "height": 125,
+            "width": 340,
+            "supportActor": [
+                {
+                    "unique": "11",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 340,
+                    "height": 50,
+                    "x": 1.909759131687224e-15,
+                    "y": 50
+                }
+            ]
+        }
+    ],
+    "specialisedCommunicativeEvents": [],
+    "communicativeInteractions": [],
+    "precedenceRelations": []
+}
