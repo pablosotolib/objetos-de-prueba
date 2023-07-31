@@ -1,0 +1,594 @@
+{
+    "header": [
+        {
+            "userName": "default user",
+            "identifier": "1690831357865",
+            "type": "COMMUNICATIONANALYSIS"
+        }
+    ],
+    "actors": [
+        {
+            "unique": "4",
+            "identifier": "Actor 1",
+            "name": "Jefe de Carrera",
+            "type": "Actor",
+            "x": 350,
+            "y": 230
+        },
+        {
+            "unique": "11",
+            "identifier": "Actor 2",
+            "name": "Jefe de Carrera",
+            "type": "Actor",
+            "x": 350,
+            "y": 390
+        },
+        {
+            "unique": "14",
+            "identifier": "Actor 3",
+            "name": "Docente",
+            "type": "Actor",
+            "x": 990,
+            "y": 390
+        },
+        {
+            "unique": "19",
+            "identifier": "Actor 4",
+            "name": "Jefe de Carrera",
+            "type": "Actor",
+            "x": 350,
+            "y": 550
+        },
+        {
+            "unique": "22",
+            "identifier": "Actor 5",
+            "name": "Docente",
+            "type": "Actor",
+            "x": 1010,
+            "y": 540
+        },
+        {
+            "unique": "31",
+            "identifier": "Actor 6",
+            "name": "Jefe de Carrera",
+            "type": "Actor",
+            "x": 350,
+            "y": 710
+        },
+        {
+            "unique": "32",
+            "identifier": "Actor 7",
+            "name": "Docente",
+            "type": "Actor",
+            "x": 1020,
+            "y": 700
+        }
+    ],
+    "starts": [
+        {
+            "unique": "10",
+            "identifier": "Start1",
+            "name": "Start ",
+            "type": "Start",
+            "x": 670,
+            "y": 90
+        }
+    ],
+    "ends": [
+        {
+            "unique": "29",
+            "identifier": "End4",
+            "name": "End ",
+            "type": "End",
+            "x": 680,
+            "y": 840
+        }
+    ],
+    "communicativeEvents": [
+        {
+            "unique": "2",
+            "identifier": "EV1",
+            "name": "Jefe de Carrera termina de preparar el cuerpo docente para el 2S 2023",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 190,
+            "height": 125,
+            "width": 320,
+            "supportActor": [
+                {
+                    "unique": "3",
+                    "identifier": "Actor",
+                    "name": "Jefe de Carrera",
+                    "type": "Support Actor",
+                    "width": 320,
+                    "height": 50,
+                    "x": 1.833658672929289e-15,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "6",
+            "identifier": "EV2",
+            "name": "Jefe de Carrera asigna responsables de área a algunos de los docentes",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 350,
+            "height": 125,
+            "width": 320,
+            "supportActor": [
+                {
+                    "unique": "7",
+                    "identifier": "Actor",
+                    "name": "Jefe de Carrera",
+                    "type": "Support Actor",
+                    "width": 320,
+                    "height": 50,
+                    "x": 1.833658672929289e-15,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "16",
+            "identifier": "EV3",
+            "name": "Jefe de Carrera asigna la asignatura   que va a impartir cada profesor",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 510,
+            "height": 125,
+            "width": 320,
+            "supportActor": [
+                {
+                    "unique": "17",
+                    "identifier": "Actor",
+                    "name": "Jefe de Carrera",
+                    "type": "Support Actor",
+                    "width": 320,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "26",
+            "identifier": "EV4",
+            "name": "Profesores entregan al Jefe de Carrera los trabajos de título para 2S 2023",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 670,
+            "height": 125,
+            "width": 320,
+            "supportActor": [
+                {
+                    "unique": "27",
+                    "identifier": "Actor",
+                    "name": "Jefe de Carrera",
+                    "type": "Support Actor",
+                    "width": 320,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        }
+    ],
+    "specialisedCommunicativeEvents": [],
+    "communicativeInteractions": [
+        {
+            "unique": "5",
+            "identifier": "CI",
+            "name": "IngresarDocente",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "IngresarDocente",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Profesor",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Nombre",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Especialidad",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Correo",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Telefono",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "4",
+            "target": "2"
+        },
+        {
+            "unique": "12",
+            "identifier": "CI",
+            "name": "AsignarArea",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "AsignarArea",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "AsignarArea",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "ResponsableArea",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Profesor",
+                                "type": "Reference Field",
+                                "extends_business_object": "True",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "11",
+            "target": "6"
+        },
+        {
+            "unique": "15",
+            "identifier": "CI",
+            "name": "AsignarArea",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "6",
+            "target": "14"
+        },
+        {
+            "unique": "20",
+            "identifier": "CI",
+            "name": "AsociarAsignatura",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "AsociarAsignatura",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Asignatura",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Nombre",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Creditos",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "HorasSemanales",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Descripción",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Prerequisitos",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Profesor",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "19",
+            "target": "16"
+        },
+        {
+            "unique": "23",
+            "identifier": "CI",
+            "name": "AsociarAsignatura",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "16",
+            "target": "22"
+        },
+        {
+            "unique": "33",
+            "identifier": "CI",
+            "name": "AsignaciónTrabajo",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "AsignaciónTrabajo",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "TrabajoTítulo",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Título",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Date",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "AreaInvestigación",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Descripción",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Semestre",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Profesor",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "32",
+            "target": "26"
+        },
+        {
+            "unique": "34",
+            "identifier": "CI",
+            "name": "AsignaciónTrabajo",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "26",
+            "target": "31"
+        }
+    ],
+    "precedenceRelations": [
+        {
+            "unique": "8",
+            "type": "Precedence Relation",
+            "source": "2",
+            "target": "6"
+        },
+        {
+            "unique": "18",
+            "type": "Precedence Relation",
+            "source": "6",
+            "target": "16"
+        },
+        {
+            "unique": "21",
+            "type": "Precedence Relation",
+            "source": "10",
+            "target": "2"
+        },
+        {
+            "unique": "28",
+            "type": "Precedence Relation",
+            "source": "16",
+            "target": "26"
+        },
+        {
+            "unique": "30",
+            "type": "Precedence Relation",
+            "source": "26",
+            "target": "29"
+        }
+    ]
+}
