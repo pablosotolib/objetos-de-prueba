@@ -466,15 +466,15 @@
             "name": "AsignaciónTrabajo",
             "type": "Communicative Interaction",
             "messageStructure": {
-                "name": "AsignaciónTrabajo",
+                "name": "AsignacionTrabajo",
                 "type": "Structure",
                 "children": [
                     {
-                        "name": "TrabajoTítulo",
+                        "name": "TrabajoTitulo",
                         "type": "Aggregation",
                         "children": [
                             {
-                                "name": "Título",
+                                "name": "Titulo",
                                 "type": "Data Field",
                                 "operation": "Operation",
                                 "domain": "Date",
@@ -488,7 +488,7 @@
                                 "children": []
                             },
                             {
-                                "name": "AreaInvestigación",
+                                "name": "AreaInvestigacion",
                                 "type": "Data Field",
                                 "operation": "Operation",
                                 "domain": "Text",
@@ -502,7 +502,7 @@
                                 "children": []
                             },
                             {
-                                "name": "Descripción",
+                                "name": "Descripcion",
                                 "type": "Data Field",
                                 "operation": "Operation",
                                 "domain": "Text",
