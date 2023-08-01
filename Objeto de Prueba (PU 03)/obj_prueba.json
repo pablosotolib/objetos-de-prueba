@@ -1,0 +1,688 @@
+{
+    "header": [
+        {
+            "userName": "default user",
+            "identifier": "1690915571856",
+            "type": "COMMUNICATIONANALYSIS"
+        }
+    ],
+    "actors": [
+        {
+            "unique": "11",
+            "identifier": "Actor 2",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 390,
+            "y": 180
+        },
+        {
+            "unique": "13",
+            "identifier": "Actor 3",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 1020,
+            "y": 180
+        },
+        {
+            "unique": "22",
+            "identifier": "Actor 4",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 1030,
+            "y": 320
+        },
+        {
+            "unique": "24",
+            "identifier": "Actor 2",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 380,
+            "y": 330
+        },
+        {
+            "unique": "74",
+            "identifier": "Actor 9",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 90,
+            "y": 700
+        },
+        {
+            "unique": "82",
+            "identifier": "Actor 10",
+            "name": "Vendedor",
+            "type": "Actor",
+            "x": 700,
+            "y": 790
+        },
+        {
+            "unique": "90",
+            "identifier": "Actor 12",
+            "name": "Cliente",
+            "type": "Actor",
+            "x": 1300,
+            "y": 710
+        }
+    ],
+    "starts": [
+        {
+            "unique": "9",
+            "identifier": "Start3",
+            "name": "Start ",
+            "type": "Start",
+            "x": 690,
+            "y": 40
+        }
+    ],
+    "ends": [
+        {
+            "unique": "88",
+            "identifier": "End8",
+            "name": "End ",
+            "type": "End",
+            "x": 1020,
+            "y": 840
+        }
+    ],
+    "communicativeEvents": [
+        {
+            "unique": "3",
+            "identifier": "EV1",
+            "name": "El Vendedor muestra al cliente los servicios que ofrece la empresa de construcción",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 140,
+            "height": 125,
+            "width": 360,
+            "supportActor": [
+                {
+                    "unique": "4",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 360,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "19",
+            "identifier": "EV2",
+            "name": "Cliente selecciona el servicio que necesita",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 290,
+            "height": 125,
+            "width": 360,
+            "supportActor": [
+                {
+                    "unique": "20",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 360,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "71",
+            "identifier": "EV4",
+            "name": "Vendedor registra al cliente en el sistema de beneficios",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 220,
+            "y": 670,
+            "height": 125,
+            "width": 260,
+            "supportActor": [
+                {
+                    "unique": "72",
+                    "identifier": "Actor",
+                    "name": "New Actor",
+                    "type": "Support Actor",
+                    "width": 260,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        },
+        {
+            "unique": "78",
+            "identifier": "EV5",
+            "name": "Vendedor entrega boleta al cliente",
+            "type": "Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 890,
+            "y": 670,
+            "height": 125,
+            "width": 300,
+            "supportActor": [
+                {
+                    "unique": "79",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "width": 300,
+                    "height": 50,
+                    "x": 0,
+                    "y": 50
+                }
+            ]
+        }
+    ],
+    "specialisedCommunicativeEvents": [
+        {
+            "unique": "59",
+            "identifier": "EV3",
+            "name": "Vendedor ofrece al cliente acceder al       sistema de beneficios de la empresa",
+            "type": "Specialised Communicative Event",
+            "goals": "",
+            "description": "",
+            "channel": "",
+            "temporalRestrictions": "",
+            "frequency": "",
+            "contextConstraints": "",
+            "structuralConstraints": "",
+            "treatment": "",
+            "linkedCommunication": "",
+            "linkedReaction": "",
+            "x": 540,
+            "y": 440,
+            "width": 360,
+            "height": 190,
+            "internalCommunicativeEvent": [
+                {
+                    "unique": "60",
+                    "identifier": "EV3.1",
+                    "name": "Cliente accede",
+                    "type": "Internal Communicative Event",
+                    "goals": "",
+                    "description": "",
+                    "channel": "",
+                    "temporalRestrictions": "",
+                    "frequency": "",
+                    "contextConstraints": "",
+                    "structuralConstraints": "",
+                    "treatment": "",
+                    "linkedCommunication": "",
+                    "linkedReaction": "",
+                    "x": 30,
+                    "y": 55,
+                    "height": 60,
+                    "width": 135
+                },
+                {
+                    "unique": "61",
+                    "identifier": "EV3.2",
+                    "name": "Cliente       no accede",
+                    "type": "Internal Communicative Event",
+                    "goals": "",
+                    "description": "",
+                    "channel": "",
+                    "temporalRestrictions": "",
+                    "frequency": "",
+                    "contextConstraints": "",
+                    "structuralConstraints": "",
+                    "treatment": "",
+                    "linkedCommunication": "",
+                    "linkedReaction": "",
+                    "x": 195,
+                    "y": 55,
+                    "height": 60,
+                    "width": 135
+                }
+            ],
+            "supportActor": [
+                {
+                    "unique": "62",
+                    "identifier": "Actor",
+                    "name": "Vendedor",
+                    "type": "Support Actor",
+                    "x": 0,
+                    "y": 140,
+                    "height": 50,
+                    "width": 360
+                }
+            ]
+        }
+    ],
+    "communicativeInteractions": [
+        {
+            "unique": "12",
+            "identifier": "CI",
+            "name": "Lista",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Lista",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Lista",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Servicios",
+                                "type": "Iteration",
+                                "children": [
+                                    {
+                                        "name": "Servicio",
+                                        "type": "Aggregation",
+                                        "children": [
+                                            {
+                                                "name": "Nombre",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Text",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Descripción",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Text",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Precio",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Number",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Ciudad",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "11",
+            "target": "3"
+        },
+        {
+            "unique": "14",
+            "identifier": "CI",
+            "name": "Lista",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "3",
+            "target": "13"
+        },
+        {
+            "unique": "23",
+            "identifier": "CI",
+            "name": "Servicio",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Servicio",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Cliente",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "ServiciosSolicitados",
+                                "type": "Iteration",
+                                "children": [
+                                    {
+                                        "name": "ServicioSolicitado",
+                                        "type": "Aggregation",
+                                        "children": [
+                                            {
+                                                "name": "Fecha_Servicio",
+                                                "type": "Data Field",
+                                                "operation": "Operation",
+                                                "domain": "Date",
+                                                "identifier": "Identifier",
+                                                "example": [
+                                                    "Example: Tyrell",
+                                                    "Example: 256",
+                                                    "Example: €100",
+                                                    "Example: 31/09/2020"
+                                                ],
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Servicio",
+                                                "type": "Reference Field",
+                                                "extends_business_object": "False",
+                                                "operation": "Operation",
+                                                "domain": "Domain (Object)",
+                                                "example": "Example: A513, Tyrell",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Nombre",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Dirección",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Teléfono",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "22",
+            "target": "19"
+        },
+        {
+            "unique": "25",
+            "identifier": "CI",
+            "name": "Servicio",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "19",
+            "target": "24"
+        },
+        {
+            "unique": "75",
+            "identifier": "CI",
+            "name": "Beneficio",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Beneficio",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Beneficio",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Cliente",
+                                "type": "Reference Field",
+                                "extends_business_object": "True",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "BeneficioActivo",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Text",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "74",
+            "target": "71"
+        },
+        {
+            "unique": "83",
+            "identifier": "CI",
+            "name": "Boleta",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "Boleta",
+                "type": "Structure",
+                "children": [
+                    {
+                        "name": "Boleta",
+                        "type": "Aggregation",
+                        "children": [
+                            {
+                                "name": "Fecha",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Date",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Precio_Total",
+                                "type": "Data Field",
+                                "operation": "Operation",
+                                "domain": "Number",
+                                "identifier": "Identifier",
+                                "example": [
+                                    "Example: Tyrell",
+                                    "Example: 256",
+                                    "Example: €100",
+                                    "Example: 31/09/2020"
+                                ],
+                                "children": []
+                            },
+                            {
+                                "name": "Cliente",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            },
+                            {
+                                "name": "ServicioSolicitado",
+                                "type": "Reference Field",
+                                "extends_business_object": "False",
+                                "operation": "Operation",
+                                "domain": "Domain (Object)",
+                                "example": "Example: A513, Tyrell",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "source": "82",
+            "target": "78",
+            "points": [
+                {
+                    "x": 790,
+                    "y": 820
+                },
+                {
+                    "x": 790,
+                    "y": 770
+                }
+            ]
+        },
+        {
+            "unique": "91",
+            "identifier": "CI",
+            "name": "Boleta",
+            "type": "Communicative Interaction",
+            "messageStructure": {
+                "name": "New Structure",
+                "type": "Structure",
+                "children": []
+            },
+            "source": "78",
+            "target": "90"
+        }
+    ],
+    "precedenceRelations": [
+        {
+            "unique": "10",
+            "type": "Precedence Relation",
+            "source": "9",
+            "target": "3"
+        },
+        {
+            "unique": "21",
+            "type": "Precedence Relation",
+            "source": "3",
+            "target": "19"
+        },
+        {
+            "unique": "63",
+            "type": "Precedence Relation",
+            "source": "19",
+            "target": "59"
+        },
+        {
+            "unique": "73",
+            "type": "Precedence Relation",
+            "source": "59",
+            "target": "71"
+        },
+        {
+            "unique": "80",
+            "type": "Precedence Relation",
+            "source": "59",
+            "target": "78",
+            "points": [
+                {
+                    "x": 1040,
+                    "y": 560
+                }
+            ]
+        },
+        {
+            "unique": "81",
+            "type": "Precedence Relation",
+            "source": "71",
+            "target": "78"
+        },
+        {
+            "unique": "89",
+            "type": "Precedence Relation",
+            "source": "78",
+            "target": "88"
+        }
+    ]
+}
